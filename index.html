@@ -51,6 +51,10 @@
                 <center>
                     <script>
                         console.log("from script block");
+                        let Principal = prompt("Enter Principal");
+                        let Rate = prompt("Enter Rate");
+                        let Time = prompt("Enter Time");
+
                         var linebreak = "<br />"
                         var P = 500000;
                         var R = 0.05;
@@ -84,6 +88,26 @@
                         document.write(linebreak)
                         document.write("Total Amount = ")
                         document.write(totalAmount)
+
+                        let simpleInterest = Principal * Rate * Time
+                        let TA = Principal + simpleInterest
+                        document.write(linebreak)
+                        document.write(linebreak)
+                        document.write(linebreak)
+                        document.write("CUSTOM CALCULATION")
+                        document.write(linebreak)
+                        document.write("Your Principal: ")
+                        document.write(Principal)
+                        document.write(linebreak)
+                        document.write("Your Rate: ")
+                        document.write(Rate)
+                        document.write(linebreak)
+                        document.write("Your Time(in years) :")
+                        document.write(Time)
+                        document.write(linebreak)
+                        document.write("Simple Interest: ")
+                        document.write(simpleInterest)
+                        document.write(linebreak)
                     </script>
                 </center> 
             </div>

@@ -20,7 +20,7 @@ nav {
     align-items: center;
     gap: 20px;
     justify-content: space-evenly;
-    background: rgb(26, 57, 120) url("/HTML/Assets/rolls-royce-black-.jpg");
+    background: rgb(26, 57, 120) url("/rolls-royce-black-.jpg");
     background-size: cover;
     width: 100%;
 }
